@@ -13,23 +13,27 @@ import {
   Title,
 } from "solid-start";
 import "./reset.css";
-import "./root.css";
+import "./root.scss";
+import Nav from "./components/Nav";
 
 export default function Root() {
   return (
     <Html lang="en">
       <Head>
-        <Title>ToneJS Live Coding Editor</Title>
+        <Title>Freaq Creation</Title>
         <Meta charset="utf-8" />
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
-        
+
       </Head>
       <Body>
+        <Nav />
         <Suspense>
           <ErrorBoundary>
-            <Routes>
-              <FileRoutes />
-            </Routes>
+            <main>
+              <Routes>
+                <FileRoutes />
+              </Routes>
+            </main>
           </ErrorBoundary>
         </Suspense>
         <Scripts />

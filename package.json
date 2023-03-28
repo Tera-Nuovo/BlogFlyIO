@@ -1,9 +1,9 @@
 {
-  "name": "BlogFlyIO",
+  "name": "blogflyio",
   "scripts": {
     "dev": "solid-start dev",
     "build": "solid-start build",
-    "start": "solid-start start --port 6900"
+    "start": "solid-start start --port 8080"
   },
   "type": "module",
   "devDependencies": {
@@ -15,11 +15,16 @@
     "vite": "^4.1.4"
   },
   "dependencies": {
+    "@markdoc/markdoc": "^0.2.2",
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.8.1",
     "ace-builds": "^1.16.0",
+    "sass": "^1.59.3",
     "solid-js": "^1.6.11",
+    "solid-markdown": "^1.2.1",
     "solid-start": "^0.2.23",
+    "solid-start-static": "^0.2.23",
+    "solidjs-markdoc": "^0.0.2",
     "tone": "^14.7.77",
     "undici": "^5.15.1"
   },

@@ -1,0 +1,29 @@
+@import '/src/variables';
+
+.projectTitle {
+    font-size: 3em;
+    font-weight: 400;
+    color: $primary-color;
+    margin-bottom: 0.5em;
+}
+
+.projectContainer {
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+
+    img {
+        max-width: 90%;
+        max-height: 90%;
+    }
+}
+
+// .projectDescription {
+//     font-size: 10em;
+//     font-weight: 400;
+//     color: $primary-color;
+//     margin-bottom: 0.5em;
+// }
