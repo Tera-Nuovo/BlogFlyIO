@@ -1,5 +1,6 @@
 import { A } from "solid-start";
 import styles from './nav.module.scss'
+import hrStyles from './hr.module.scss'
 //import logo to to use in the img tag
 import image from '/src/assets/freaq.png'
 
@@ -23,7 +24,7 @@ function Nav() {
                 </div>
             </nav>
             {/* add styles hr and horizontal line */}
-            <hr class={styles['horizontal-line']}></hr>
+            <hr class={hrStyles['horizontal-line']}></hr>
         </div>
     );
 }

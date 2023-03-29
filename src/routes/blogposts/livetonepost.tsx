@@ -28,10 +28,9 @@ Check out the documentation for Tone.js [here](https://tonejs.github.io/docs/14.
 I will make a short tutorial on how to use it soon.
 in the meantime you can experiment with it and see what you can do.
 
-[Click here to try the editor!](https://freaqcreation.com/projects/livetone)
+[Click here to try the editor!](https://freaqcreation.art/projects/livetone)
 
-Enjoy!
-        `} />
+Enjoy!`} />
         </div>
     )
 }

@@ -1,5 +1,6 @@
 import { SolidMd } from "~/utills/SolidMd";
 import styles from "./project.module.scss";
+import hrStyles from "~/components/hr.module.scss";
 
 interface projectProps {
     title: string;
@@ -14,7 +15,7 @@ function project({ title, date, description, thumbnailUrl, slug }: projectProps)
     const num = () => Math.floor(Math.random() * 255);
     return (
         <div class={styles.projectContainer}>
-            <hr class="white-line horizontal-line"></hr>
+            <hr class={hrStyles['horizontal-line']}></hr>
             <section>
                 <a href={`/projects/${slug}`}>
                     <div class="project">

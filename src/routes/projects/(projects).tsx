@@ -5,6 +5,7 @@ import Project from "../../components/project";
 import { liveToneProps } from "./livetone";
 
 import styles from "./projects.module.scss";
+import hrStyle from "../../components/hr.module.scss";
 
 
 

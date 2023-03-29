@@ -65,7 +65,7 @@
     transition: all 0.1s ease-in-out;
     width: 400px;
     height: 450px;
-    margin-top: 5rem;
+    margin-top: 0rem;
 
 
     &:hover {
@@ -85,7 +85,8 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 2em;
-    margin-bottom: 5em;
+    // margin-bottom: 5em;
     // margin-top: 5em;
     flex-direction: row;
+    // margin-top: 100px;
 }
