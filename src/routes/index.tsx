@@ -13,6 +13,7 @@ export const routeData = () => {
         const files = import.meta.glob('./blogposts/*.tsx');
 
         const posts = Object.keys(files).map(async (file) => {
+            console.log(file);
             const slug = file.replace('./blogposts/', '').replace('.tsx', '')
             const meta = await files[file]()
 

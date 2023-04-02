@@ -8,6 +8,7 @@
   "type": "module",
   "devDependencies": {
     "@types/node": "^18.11.18",
+    "@types/p5": "^1.6.0",
     "esbuild": "^0.14.54",
     "postcss": "^8.4.21",
     "solid-start-node": "^0.2.19",
@@ -19,6 +20,7 @@
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.8.1",
     "ace-builds": "^1.16.0",
+    "p5": "^1.6.0",
     "sass": "^1.59.3",
     "solid-js": "^1.6.11",
     "solid-markdown": "^1.2.1",
